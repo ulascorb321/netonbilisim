@@ -377,10 +377,14 @@ header.active .nav-link:hover {
 #f1 {
     height: 100vh;
     width: 100%;
+    background-size: cover;
     box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.521);
     position: relative;
-    object-fit: cover;
+    background-image: url("aa.avif");
 }
+
+
+
 
 .photo-cards-section {
     background: #ffffff;
@@ -655,7 +659,7 @@ header.active .nav-link:hover {
     text-align: center;
     padding: 150px 0 120px;
     width: 100%;
-    background: url('anten.jpg') no-repeat center center/cover;
+    background: url('dcn.jpg') no-repeat center center/cover;
     /* Arka plan görseli */
     position: relative;
     color: #fff;
