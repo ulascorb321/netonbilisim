@@ -653,7 +653,33 @@ header.active .nav-link:hover {
     /* Metinlerin üstte kalması için */
 }
 
-#projedetayust {
+#antenust {
+    margin-top: 10%;
+    text-align: center;
+    padding: 150px 0 120px;
+    width: 100%;
+    background: url('anten.jpg') no-repeat center center/cover;
+    /* Arka plan görseli */
+    position: relative;
+    color: #fff;
+    /* Metin rengini beyaz yaptım, görsele göre kontrast iyi olsun */
+
+}
+
+#nasust {
+    margin-top: 10%;
+    text-align: center;
+    padding: 150px 0 120px;
+    width: 100%;
+    background: url('nas1.jpg') no-repeat center center/cover;
+    /* Arka plan görseli */
+    position: relative;
+    color: #fff;
+    /* Metin rengini beyaz yaptım, görsele göre kontrast iyi olsun */
+
+}
+
+#apust {
     margin-top: 10%;
     text-align: center;
     padding: 150px 0 120px;
@@ -667,7 +693,7 @@ header.active .nav-link:hover {
 }
 
 /* Overlay için karanlık katman (metin okunurluğu için) */
-#projedetayust::before {
+#antenust::before {
     content: '';
     position: absolute;
     top: 0;
@@ -675,6 +701,30 @@ header.active .nav-link:hover {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.45);
+    /* Hafif siyah overlay */
+    z-index: 1;
+}
+
+#apust::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    /* Hafif siyah overlay */
+    z-index: 1;
+}
+
+#nasust::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.747);
     /* Hafif siyah overlay */
     z-index: 1;
 }
